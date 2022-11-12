@@ -69,7 +69,6 @@ span {
 
 .section1-logo2 {
     position: relative;
-    background: #7a2cbf2a;
     width: 100%;
     display: flex;
     align-items: center;
@@ -157,10 +156,9 @@ span {
     border: none;
     background: #D6D6D8;
     border-radius: 8px;
-    padding: 12px 10px;
+    padding: 12px 10px 12px 10px;
     margin-left: 25px;
     margin-top: 12px;
-
 }
 
 .section1-box button span {
@@ -181,7 +179,6 @@ span {
 
 .container2 {
     width: 1200px;
-    background-color: aqua;
     padding-left: 21px;
 }
 
@@ -208,32 +205,22 @@ span {
     width: 39px;
     height: 39px;
     border-radius: 8px;
-    background: #D6D6D8;
+    background: #d6d6d8b7;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 33px;
 }
 
-.section2-news p {
+.section2-news button {
     position: absolute;
-    right: 9%;
-    bottom: 93.5%;
-    Width: 20px;
-    Height: 20px;
-    background: #FF6D00;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: 0.025em;
-    text-transform: capitalize;
-    color: #FFFFFF;
+    left: 1208px;
+    top: 25px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 15px;
+    width: 15px;
+    border: none;
+    background: #FF6D00;
 }
 
 .section2-nav-text {
@@ -456,7 +443,8 @@ span {
     background: #110F15;
     border-radius: 4px;
 }
-.section4-wrapper{
+
+.section4-wrapper {
     display: flex;
     justify-content: space-between;
     padding-top: 21px;
